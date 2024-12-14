@@ -4,8 +4,18 @@ var expression1 = x < 25;
 var expression2 = x > 50;
 
 // TODO: Write Your JavaScript Code Here
-if(true){
+var x =prompt(50);
+var y;
+if(x === 29){
+    console.log (
+        true true
+    )
     
-}else{
-
+}else if (x < 29){
+     console.log (true false)
+}else if (x > 29){
+    console.log (false true)
+}else {
+    console.log (False False)
 }
+

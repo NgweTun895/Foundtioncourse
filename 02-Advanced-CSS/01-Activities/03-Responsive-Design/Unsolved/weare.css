@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: indianred;
+    padding: 40px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+aside {
+    flex: 1;
+    background-color: blue;
+    color: burlywood;
+    padding: 30px;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.container {
+    flex: 4;
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid purple;
+    padding: 10px;
+    flex: 1 0 300px;
+}
+
+@media screen and (max-width: 430px}{
+    nav,main {
+        flex-direction: coloum;
+    }
+}
+
+static
+Responsive+flex/grid
+    
+

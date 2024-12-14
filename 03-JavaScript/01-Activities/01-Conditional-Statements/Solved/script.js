@@ -24,10 +24,13 @@ var x = prompt("Choose Your Number");
 var y;
 if (x === 29) {
   y = "Got it!";
-} else if (x < 29) {
+}
+ else if (x < 29) {
   y = "Less than";
-} else if (x > 29) {
+} 
+ else if (x > 29) {
   y = "Greater than";
-} else {
+} 
+else {
   y = "None of";
 }

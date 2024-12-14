@@ -36,10 +36,10 @@ function generatePassword() {
   if (includeLowerCase) {
     availableChar += "abcdefghijklmnopqrstuvwxyz";
   }
-  if (includeNumber) {
+  if (includeNumber) {     
     availableChar += "1234567890";
   }
-  if (includeSpecialCharacter) {
+  if (includeSpe        cialCharacter) {
     availableChar += "!@#$%^&*()_+-=[]{}|;:,.<>?";
   }
 
@@ -54,7 +54,7 @@ function generatePassword() {
 }
 
 // Event listener to generate password when button is clicked
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate")
 generateBtn.addEventListener("click", function () {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
