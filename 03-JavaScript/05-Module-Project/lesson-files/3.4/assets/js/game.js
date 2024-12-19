@@ -6,7 +6,7 @@ var randomNumber = function(min, max) {
 
   return value;
 };
-
+ 
 // fight function (now with parameter for enemy's object holding name, health, and attack values)
 var fight = function(enemy) {
   while (playerInfo.health > 0 && enemy.health > 0) {
