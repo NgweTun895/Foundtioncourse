@@ -29,12 +29,12 @@ body h1 {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    color: rgb(29, 67, 182);
+    color: rgb(247, 248, 251);
     background-color: rgb(24, 6, 6);
 }
 
 /* .actions button :hover{ */
-    color: #b5a0a0;
+    color
 }
 
 .actions button:disabled {

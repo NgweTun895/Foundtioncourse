@@ -6,6 +6,8 @@
     <title>Ngwe Tun football match</title>
 </head>
 <link rel="stylesheet" href="./style.css">
+<script src="./football.js"></script>
+
 <body>
     <h1>ငွေထွန်းဖလား ဘောလုံးပြိုင်ပွဲ</h1>
 <!-- ကစားသမား အချက်အလက် -->
@@ -18,13 +20,13 @@
 <!-- ပြိုင်ဘက် အချက်အလက် -->
     <div class="enemy">
         <h2>ပြိုင်ဘက် နာမည်: <span id="enemyname">မျိုးလှိုင်ဝင်း</span></h2>
-        <p>Health: <span id="enenyhealth">80</span></p>
+        <p>Health: <span id="enemyhealth">80</span></p>
     </div>
 
     <div class="actions">
-        <button id="attackButtom" onclick="play('ATTACK')">ကန်မယ်</button>
-        <button id="restButtom" onclick="play('REST')">နားမယ်</button>
-        <button id="passButtom" onclick="play('pass')">Pass</button>
+        <button id="attackButton" onclick="play('ATTACK')">ကန်မယ်</button>
+        <button id="restButton" onclick="play('REST')">နားမယ်</button>
+        <button id="passButton" onclick="play('PASS')">Pass</button>
     </div>
 
 <!-- ဖော်ပြမည့် စာသားနှင့်ပုံစံ -->
