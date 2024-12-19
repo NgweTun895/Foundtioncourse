@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngwe Tun football match</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+    <h1>ငွေထွန်းဖလား ဘောလုံးပြိုင်ပွဲ</h1>
+<!-- ကစားသမား အချက်အလက် -->
+    <div class="player">
+        <h2>ကစားသမား နာမည်: <span id="playername">သန်းတိုးအောင်</span></h2>
+        <p>Health: <span id="playerhealth">100</span></p>
+        <p>Energy: <span id="playerenergy">50</span></p>
+    </div>
+
+<!-- ပြိုင်ဘက် အချက်အလက် -->
+    <div class="enemy">
+        <h2>ပြိုင်ဘက် နာမည်: <span id="enemyname">မျိုးလှိုင်ဝင်း</span></h2>
+        <p>Health: <span id="enenyhealth">80</span></p>
+    </div>
+
+    <div class="actions">
+        <button id="attackButtom" onclick="play('ATTACK')">ကန်မယ်</button>
+        <button id="restButtom" onclick="play('REST')">နားမယ်</button>
+        <button id="passButtom" onclick="play('pass')">Pass</button>
+    </div>
+
+<!-- ဖော်ပြမည့် စာသားနှင့်ပုံစံ -->
+    <div class="game-log" id="game-log">
+        <p>ပြိုင်ပွဲစပါပြီခင်ဗျာ ကြိုက်နှစ်သက်ရာကို နှိပ်ပြီးကစားပါ</p>
+    </div>
+
+    
+</body>
+</html>
+
