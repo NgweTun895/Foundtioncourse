@@ -33,8 +33,9 @@ body h1 {
     background-color: rgb(24, 6, 6);
 }
 
-/* .actions button :hover{ */
-    color
+.actions button:hover  {
+    background-color: yellow;
+    color: black;
 }
 
 .actions button:disabled {
